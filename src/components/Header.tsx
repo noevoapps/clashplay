@@ -1,6 +1,6 @@
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useCallback, useEffect, useState } from "react";
-import logo from "../assets/clash_play_logo.png";
+import logo from "../assets/clash_play_logo1.png";
 
 export default function Header() {
   const [params, setParams] = useSearchParams();
