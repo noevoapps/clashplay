@@ -15,7 +15,9 @@ const router = createBrowserRouter([
       { path: 'game/:slug', element: <Game /> },
     ],
   },
-])
+], {
+  basename: '/clashplay'
+})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
