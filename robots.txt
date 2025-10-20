@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /dist/
+Disallow: /private/
+
+Sitemap: https://clashplay.games/sitemap.xml
