@@ -42,9 +42,9 @@ type Props = {
 export default function Sidebar({ activeCategory, onSelect }: Props) {
   const items = useMemo(() => CATEGORIES, []);
   return (
-    <aside className="group/sidebar fixed left-0 top-14 z-30 h-[calc(100vh-56px)]">
+      <aside className="group/sidebar fixed left-0 top-28 z-50 h-[calc(100vh-112px)]">
       <div className="flex h-full w-12 flex-col items-center gap-3 rounded-r-lg border-r border-orange-500/40 bg-neutral-950/80 p-2 ring-1 ring-inset ring-white/5 backdrop-blur transition-[width] duration-200 hover:w-64">
-        <div className="hidden w-full px-2 text-xs font-semibold uppercase tracking-wide text-orange-400 group-hover/sidebar:block">
+        <div className="w-full px-3 py-2 mb-2 text-xs font-semibold uppercase tracking-wide text-orange-400 whitespace-nowrap truncate">
           Categories
         </div>
         <nav className="mt-1 w-full overflow-y-auto pr-1 scrollbar-hide">
